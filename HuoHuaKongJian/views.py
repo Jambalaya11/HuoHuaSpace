@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
-from Database import *
+import json
+from Database.models import *
 
 def home(request):
     return render(request, 'index.html', {})
