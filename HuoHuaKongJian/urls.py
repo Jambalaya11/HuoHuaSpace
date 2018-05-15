@@ -21,4 +21,6 @@ urlpatterns = [
     #url(r'^admin/', admin.site.urls),
     url(r'^' + '$', views.home, name='home'),
     url(r'^' + 'add_record', views.add_record, name='add_record'),
+    url(r'^' + 'record_return', views.record_return, name='record_return'),
+    url(r'^' + 'keyword_search', views.keyword_search, name='keyword_search'),
 ]
