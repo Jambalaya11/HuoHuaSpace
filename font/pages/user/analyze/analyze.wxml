@@ -1,0 +1,5 @@
+<view class="panel">
+  <view class="chart-without-img" wx:for="{{chartsWithoutImg}}" wx:for-item="chart" wx:key="{{chart.id}}">
+    <button bindtap="open" data-chart="{{chart}}">{{chart.name}}</button>
+  </view>
+</view>

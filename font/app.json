@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/homepage/homepage",
+    "pages/project/project",
+    "pages/card/card",
+    "pages/user/user",
+    "pages/homepage/html/html",
+    "pages/homepage/css/css",
+    "pages/homepage/Javascript/Javascript",
+    "pages/homepage/php/php",
+    "pages/user/feedback/feedback",
+    "pages/user/collect/collect",
+    "pages/user/about/about",
+    "pages/card/card-detail/card-detail",
+    "pages/project/project-detail/project-detail",
+    "pages/user/analyze/analyze",
+    "pages/user/analyze/mybehavior/index",
+    "pages/user/analyze/userbehavior/index"
+    ],
+  "window": {
+    "navigationBarBackgroundColor": "#FF9966"
+    },
+    "tabBar": {
+      "selectedColor":"#FF9966",
+      "list": [
+        {
+          "pagePath": "pages/homepage/homepage",
+          "text": "首页",
+          "iconPath":"/images/icon/homepage.png",
+          "selectedIconPath":"/images/icon/homepage.png"
+        },
+        {
+          "pagePath": "pages/card/card",
+          "text": "词条",
+          "iconPath": "/images/icon/card.png",
+          "selectedIconPath": "/images/icon/card.png"
+        },
+        {
+          "pagePath": "pages/project/project",
+          "text": "项目",
+          "iconPath": "/images/icon/project.png",
+          "selectedIconPath": "/images/icon/project.png"
+        },
+        {
+          "pagePath": "pages/user/user",
+          "text": "我的",
+          "iconPath": "/images/icon/user.png",
+          "selectedIconPath": "/images/icon/user.png"
+        }
+      ]
+    }
+}
+
+
+
+
+

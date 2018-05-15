@@ -1,0 +1,61 @@
+<view class="container">
+  <view>
+    <image class="logo" src="/images/logo.png"></image>
+    <view class="horizon_top"></view>
+    <image class="sparkspace" src="/images/spark_banner.png"></image>
+  </view>
+  <view class="weui_panel">
+    <view catchtap="oncardtap" data-courseId='1'>
+      <image class="weui_grid_icon" src="/images/language/html.png" />
+      <view class="weui_grid_label">HTML</view>
+    </view>
+    <view catchtap="oncardtap" data-courseId='2'>
+      <image class="weui_grid_icon" src="/images/language/css.png" />
+      <view class="weui_grid_label">CSS</view>
+    </view>
+    <view catchtap="oncardtap" data-courseId='3'>
+      <image class="weui_grid_icon" src="/images/language/js.png" />
+      <view class="weui_grid_label">Javasrcipt</view>
+    </view>
+    <view catchtap="oncardtap" data-courseId='4'>
+      <image class="weui_grid_icon" src="/images/language/php.png" />
+      <view class="weui_grid_label">PHP</view>
+    </view>
+  </view>
+  <view class="horizon_middle"></view>
+
+  <view class="hot-container">
+    <view class="hot-recommend">
+      <text class="hot-recommend-text">热门词条</text>
+      <image class="hot-recommend-img" src="/images/icon/card-recommend.png"></image>
+      <view class="more" catchtap="onMoreTap_card">
+        <text class="more-text" >查看更多</text>
+        <image class="more-img" src="/images/icon/more.png"></image>
+      </view>
+    </view>
+    <view class="horizon_bottom"></view>
+    <view class="recommend-text">
+      <text class="recommend-line">堆(数据结构)：堆（英语：Heap）是计算机科学中一类特殊的数据结构的统称。</text>
+      <text class="recommend-line">队列：队列，又称为伫列（queue），是先进先出（FIFO, First-In - First - Out）的线性表。</text>
+      <text class="recommend-line">集合 (计算机科学)：在计算机科学中，集合是一组可变数量的数据项（也可能是0个）的组合</text>
+    </view>
+  </view>
+
+  <view class="hot-container">
+    <view class="hot-recommend">
+      <text class="hot-recommend-text">热门项目</text>
+      <image class="hot-recommend-img" src="/images/icon/project-recommend.png"></image>
+      <view class="more" catchtap="onMoreTap_project">
+        <text class="more-text">查看更多</text>
+        <image class="more-img" src="/images/icon/more.png"></image>
+      </view>
+    </view>
+    <view class="horizon_bottom"></view>
+    <view class="recommend-text">
+      <text class="recommend-line">泛用型酒精浓度地理位置映射数据可视化系统</text>
+      <text class="recommend-line">微邮</text>
+      <text class="recommend-line">自动身高测试仪</text>
+    </view>
+  </view>
+
+</view>

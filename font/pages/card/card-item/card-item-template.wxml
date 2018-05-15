@@ -1,0 +1,10 @@
+<template name="card-item">
+  <view class="card-template-container">
+      <text class="card-template-title">{{title}}</text>
+      <text class="card-template-contain">{{content}}</text>
+    <view class="card-template-collection">
+      <image wx:if="{{liked}}" catchtap="onLikeTap" class="card-template-collectionimg" src="/images/icon/collected.png"></image>
+      <image wx:else catchtap="onLikeTap" class="card-template-collectionimg" src="/images/icon/collect.png"></image>
+    </view>
+  </view>
+</template>

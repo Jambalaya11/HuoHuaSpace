@@ -1,0 +1,52 @@
+<view class="container">
+
+  <view class="user-info-box">
+    <view class="user-info">
+      <view class="info-hd" bindtap="bindViewTap">
+        <image class="user-avatar" src="{{userInfo.avatarUrl}}"></image>
+        <view class="user-title">
+          <text class="user-name">{{userInfo.nickName}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="more-list">
+      <navigator url="/pages/user/collect/collect" class="issue-link">
+        <view class="more-btn">
+          <image class="btn-icon" src="/images/icon/mycollect.png"></image>
+          <text class="btn-text">我的收藏</text>
+          <view class="btn-open">
+            <image class="btn-enter" src="/images/icon/more.png"></image>
+          </view>
+        </view>
+      </navigator>
+      <navigator url="/pages/user/analyze/analyze" class="issue-link">
+        <view class="more-btn">
+          <image class="btn-icon" src="/images/icon/analyze.png"></image>
+          <text class="btn-text">学习分析</text>
+          <view class="btn-open">
+            <image class="btn-enter" src="/images/icon/more.png"></image>
+          </view>
+        </view>
+      </navigator>
+      <navigator url="/pages/user/feedback/feedback" class="issue-link">
+        <view class="more-btn">
+          <image class="btn-icon" src="/images/icon/feedback.png"></image>
+          <text class="btn-text">意见反馈</text>
+          <view class="btn-open">
+            <image class="btn-enter" src="/images/icon/more.png"></image>
+          </view>
+        </view>
+      </navigator>
+      <navigator url="/pages/user/about/about" class="about-link">
+        <view class="more-btn">
+          <image class="btn-icon" src="/images/icon/about.png"></image>
+          <text class="btn-text">关于我们</text>
+          <view class="btn-open">
+            <image class="btn-enter" src="/images/icon/more.png"></image>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>

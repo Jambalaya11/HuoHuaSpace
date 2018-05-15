@@ -1,0 +1,8 @@
+<import src="card-item/card-item-template.wxml" />
+<view class="card-container">
+  <block wx:for="{{cardList}}" wx:for-item="carditem" wx:for-index="idx">
+    <view catchtap="oncardtap" data-cardId="{{carditem.cardId}}">
+      <template is="card-item" data="{{...carditem}}" />
+    </view>
+  </block>
+</view>
